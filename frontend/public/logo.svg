@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B4A5C"/>
+      <stop offset="1" stop-color="#082F3A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="20" y1="20" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8632C"/>
+      <stop offset="1" stop-color="#F5F8F0"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="120" height="120" rx="24" fill="url(#bg)"/>
+  <!-- Grid lines -->
+  <g stroke="#F5F8F0" stroke-opacity="0.15" stroke-width="1.5">
+    <line x1="40" y1="0" x2="40" y2="120"/>
+    <line x1="80" y1="0" x2="80" y2="120"/>
+    <line x1="0" y1="40" x2="120" y2="40"/>
+    <line x1="0" y1="80" x2="120" y2="80"/>
+  </g>
+  <!-- MG monogram -->
+  <g transform="translate(60,60)">
+    <!-- M -->
+    <path d="M-36,16 L-36,-22 L-18,8 L0,-22 L0,16" stroke="url(#accent)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- G (dari titik setelah M) -->
+    <path d="M12,-22 A18,18 0 1,1 8,16 M12,-2 L22,8" stroke="url(#accent)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

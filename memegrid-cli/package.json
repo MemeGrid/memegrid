@@ -1,0 +1,20 @@
+{
+  "name": "memegrid-cli",
+  "version": "0.1.0",
+  "description": "Install the memegrid skill and deploy memecoins to NOXA Fun straight from an AI agent.",
+  "bin": {
+    "memegrid-cli": "bin/memegrid.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skill"
+  ],
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
