@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
-const API_BASE = "https://pleasant-entertainment-medications-damages.trycloudflare.com";
+const API_BASE = "https://mike-nuke-april-idaho.trycloudflare.com";
 
 type TokenInfo = {
   token_address: string;

@@ -4,7 +4,7 @@ import { useMemo, useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import TokenCard from "@/components/TokenCard";
 
-const API_BASE = "https://pleasant-entertainment-medications-damages.trycloudflare.com";
+const API_BASE = "https://mike-nuke-april-idaho.trycloudflare.com";
 
 type TokenData = {
   token_address: string;

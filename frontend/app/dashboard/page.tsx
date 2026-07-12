@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import type { AgentEntry } from "@/lib/mockData";
 
 // Backend API — Cloudflare tunnel ke localhost:3099
-const API_BASE = "https://pleasant-entertainment-medications-damages.trycloudflare.com";
+const API_BASE = "https://mike-nuke-april-idaho.trycloudflare.com";
 
 type AgentData = {
   name: string;
